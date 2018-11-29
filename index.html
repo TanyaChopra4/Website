@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
   <head>
+    <title>Language Pro</title>
+    <link href='main.css' rel='stylesheet'>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>Language Pro</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,11 +21,15 @@
   <body>
 
     <!-- Navigation -->
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <a class="navbar-brand" href="#">Language Pro</a>
+        <!--<div class="navbar-toggler-icon"></div>-->
+        <div class="topnav">
+          <nav>
+            <a href="about.html" class="active">About</a>
+          </nav>
         </div>
       </div>
     </nav>
@@ -34,26 +38,40 @@
     <div class="container">
 
       <!-- Page Heading -->
-      <h1 class="my-4">Language Pro
-      </h1>
+
+      <h1 class="my-4">Learn with Language Pro at anytime, anywhere.</h1>
+
+      <div class="quote">
+        <p><em>If you talk to a man in a language he understands, that goes to his head.</em></p>
+        <p><em>If you talk to him in his language, that goes to his heart.</em></p>
+        <p><em>(Nelson Mandela)</em></p>
+      </div>
+
+      <br>
 
       <!-- Project One -->
       <div class="row">
         <div class="col-md-7">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="img/France.png" alt="">
+          <img class="France" src="img/France.png">
         </div>
+
         <div class="col-md-5">
           <h3>French</h3>
+          <a href="Dummy link1">Vocabulary games</a> <br>
+          <a href="Dummy link2">Exercise</a>
         </div>
+
       </div>
       <hr>
 
       <div class="row">
         <div class="col-md-7">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="img/Spain.png" alt="">
+          <img class="Spain" src="img/Spain.png">
         </div>
         <div class="col-md-5">
             <h3>Spanish</h3>
+            <a href="Dummy link3">Vocabulary games</a> <br>
+            <a href="Dummy link4">Exercise</a>
         </div>
       </div>
       <!-- /.row -->
@@ -63,10 +81,12 @@
       <!-- Project Three -->
       <div class="row">
         <div class="col-md-7">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="img/China.png" alt="">
+          <img class="China" src="img/China.png">
         </div>
         <div class="col-md-5">
             <h3>Mandarin</h3>
+            <a href="Dummy link5">Vocabulary games</a> <br>
+            <a href="Dummy link6">Exercise</a>
         </div>
       </div>
       <!-- /.row -->
@@ -76,20 +96,33 @@
       <!-- Project Four -->
       <div class="row">
         <div class="col-md-7">
-          <img class="img-fluid rounded mb-3 mb-md-0" style="max-width: 151px; max-height: 100;"src="img/India.png" alt="">
+          <img class="India" style="max-width: 151px; max-height: 100;"src="img/India.png">
         </div>
         <div class="col-md-5">
             <h3>Hindi</h3>
+            <a href="Dummy link7">Vocabulary games</a> <br>
+            <a href="Dummy link8">Exercise</a>
         </div>
       </div>
       <!-- /.row -->
 
       <hr>
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+
+      <div class="social">
+        <p>Follow us on:</p>
       </div>
+      <div id='social-buttons'>
+        <button class='btn-twitter'>Twitter</button>
+        <button class='btn-facebook'>Facebook</button>
+        <button class='btn-pinterest'>Pinterest</button>
+      </div>
+
+      <br>
+
+    <!-- Footer -->
+    <footer class="py-3 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Language Pro 2018</p>
       <!-- /.container -->
     </footer>
 
