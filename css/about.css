@@ -1,5 +1,12 @@
+body {
+  background-image: url("../img/french-flag-waving-animated.gif");
+  background-size: 960px 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .my-5 {
-  text-align: center; 
+  text-align: center;
 }
 
 .topnav a {
@@ -30,4 +37,8 @@ b {
 ul {
   font-family: sans-serif;
   font-size: 18px;
+}
+
+.column {
+  padding: 15px;
 }
